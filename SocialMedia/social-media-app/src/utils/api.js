@@ -6,9 +6,9 @@ const BASE_URL = "http://20.244.56.144/test";
 export const registerCompany = async () => {
   const response = await axios.post(`${BASE_URL}/register`, {
     companyName: "goMart",
-    ownerName: "Kushagra",
-    rollNo: "220399",
-    ownerEmail: "kushagra.gangwar.22cse@bmu.edu.in",
+    ownerName: "Astha",
+    rollNo: "220367",
+    ownerEmail: "astha.rai.22cse@bmu.edu.in",
     accessCode: "PRoJlR",
   });
   return response.data;
@@ -20,9 +20,9 @@ export const getAuthToken = async (clientID, clientSecret) => {
     companyName: "goMart",
     clientID,
     clientSecret,
-    ownerName: "Kushagra",
-    ownerEmail: "kushagra.gangwar.22cse@bmu.edu.in",
-    rollNo: "220399",
+    ownerName: "Astha",
+    ownerEmail: "astha.rai.22cse@bmu.edu.in",
+    rollNo: "220367",
   });
   return response.data;
 };
